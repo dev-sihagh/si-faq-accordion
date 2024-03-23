@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Frontend Mentor | FAQ accordion</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <section class="container">
+    <section class="container-faq">
+      <section class="container-faq-header">
+        <img class="star-icon" src="./assets/images/icon-star.svg" alt="icon-star">
+        <h2>FAQs</h2>
+
+      </section>
+
+  <section class="container-faq-question">
+    <h3> What is Frontend Mentor, and how will it help me? </h3>
+    <section class="container-faq-question-icon">
+      <!-- <section class="iconplus" onclick="toggleMenu()"> -->
+        <img class="plus plus-icon-first" src="./assets/images/icon-plus.svg" alt="icon-plus" onclick="toggleAnswerFirst()">
+      <!-- </section> -->
+      <img class="minus minus-icon-first" src="./assets/images/icon-minus.svg" alt="icon-minus" onclick="toggleAnswerFirst()">
+    </section>
+  </section> 
+
+  <section class="answer answer-first">
+    <p>Frontend Mentor offers realistic coding challenges to help developers improve their 
+      frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+      all levels and ideal for portfolio building.</p>
+  </section>
+  <hr>
+
+    <section class="container-faq-question">
+
+      <h3> Is Frontend Mentor free?</h3>
+      <section class="container-faq-question-icon">
+        <img class="plus plus-icon-second" src="./assets/images/icon-plus.svg" alt="icon-plus" onclick="toggleAnswerSecond()">
+        <img class="minus minus-icon-second" src="./assets/images/icon-minus.svg" alt="icon-minus" onclick="toggleAnswerSecond()">
+      </section>
+      
+    </section>
+  <section class="answer answer-second">
+    <p> Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
+      option providing access to a range of projects suitable for all skill levels.</p>
+  </section>
+  <hr>
+  
+    <section class="container-faq-question">
+      <h3>Can I use Frontend Mentor projects in my portfolio?</h3>
+      <section class="container-faq-question-icon">
+        <img class="plus plus-icon-third" src="./assets/images/icon-plus.svg" alt="icon-plus" onclick="toggleAnswerThird()">
+        <img class="minus minus-icon-third" src="./assets/images/icon-minus.svg" alt="icon-minus" onclick="toggleAnswerThird()">
+      </section>
+    </section>
+
+    <section class="answer answer-third">
+      <p>  Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+        way to showcase your skills to potential employers!</p>
+    </section>
+    <hr>
+
+    <section class="container-faq-question">
+      <h3>  How can I get help if I'm stuck on a Frontend Mentor challenge?</h3>
+      <section class="container-faq-question-icon">
+        <img class="plus plus-icon-fourth" src="./assets/images/icon-plus.svg" alt="icon-plus" onclick="toggleAnswerFourth()">
+        <img class="minus minus-icon-fourth" src="./assets/images/icon-minus.svg" alt="icon-minus" onclick="toggleAnswerFourth()">
+      </section>
+    </section>
+
+    <section class="answer answer-fourth">
+      <p>  The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+        channel where you can ask questions and seek support from other community members.</p>
+    </section>
+    <hr>
+
+      
+  
+    </section>
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">SiHagh</a>.
+      </div>
+    </footer>
+    </section>
+<script src="/assets/js/script.js"></script>
+  
+
+
+
+</body>
+</html>
